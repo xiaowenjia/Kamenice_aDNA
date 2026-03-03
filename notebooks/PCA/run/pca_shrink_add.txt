@@ -1,0 +1,12 @@
+genotypename:	/mnt/archgen/users/xiaowen/Kamenice/1024/PCA/0925/PCA_eigen/KNC.HO.171125.geno
+snpname:	/mnt/archgen/users/xiaowen/Kamenice/1024/PCA/0925/PCA_eigen/KNC.HO.171125.snp
+indivname:	/mnt/archgen/users/xiaowen/Kamenice/1024/PCA/0925/PCA_eigen/KNC.HO.171125.ind
+evecoutname:	/mnt/archgen/users/xiaowen/Kamenice/1024/PCA/0925/KNC_171125_shrink.evec
+evaloutname:	/mnt/archgen/users/xiaowen/Kamenice/1024/PCA/0925/KNC_171125_shrink.eval
+poplistname:	/mnt/archgen/users/xiaowen/Iraq_Syria/0325/PCA/0825/PCA_list.txt
+lsqproject: YES
+shrinkmode: YES
+outliermode: 2
+numoutevec: 4
+numthreads: 8
+hiprecision: YES

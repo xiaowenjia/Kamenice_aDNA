@@ -1,0 +1,14 @@
+genotypename: /mnt/archgen/users/xiaowen/Kamenice/1024/Admixtool/qpAdm/0425/new_dataset/qpadm.renamed_unbiaseddataset.200525.geno   # in eigenstrat format
+snpname:    /mnt/archgen/users/xiaowen/Kamenice/1024/Admixtool/qpAdm/0425/new_dataset/qpadm.renamed_unbiaseddataset.200525.snp          # in eigenstrat format
+indivname:  /mnt/archgen/users/xiaowen/Kamenice/1024/DATES/0825/qpadm.renamed_unbiaseddataset.200525.ind        # in eigenstrat format
+admixlist:  admixlist.txt                    # This file contains the source and admixed populations to use for the analysis. Each line has the format: <source1> <source2> <testpopulation> <output_directory>, where source1 and source2 are the reference populations for the ancestral populations, testpop is the name of the admixed population and the output_directory is the name of the output directory.Output files are of the format output_directory/testpopulation.out
+binsize:    0.001                      # in Morgans, range is from 0-1. Optimal binsize of 0.001 is recommended.
+maxdis:     2                     # in Morgans, range is 0-1. For quicker runs, use max_distance < 1.0. However, for recent admixture,   ensure that max_distance is greater than the expected admixture LD blocks.
+mincount:	1
+seed:	77
+jackknife: YES                      # if YES, program will run jackknife by dropping one chr in each run and estimate the mean and standard error across the 23 runs.
+qbin:       10                      # discretization parameter on mesh size for the binned residuals. Higher qbin correlates loosely with higher accuracy and highly with longer run time.
+runfit:  YES                         # run exponential fit using least squares on the output to infer the date of admixture?
+afffit:    YES                       # use affine for the fit? 
+lovalfit:  0.45                         # in centiMorgans, starting genetic distance.
+runmode:    1

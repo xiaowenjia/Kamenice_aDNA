@@ -1,0 +1,5 @@
+KNC_LBA Albania_Cinamak_EBA.AG KNC031 KNC031_prox
+CSB_N W.EurasiaSteppe_EnBA KNC031 KNC031_dis
+CSB_N Albania_Cinamak_EBA.AG KNC031 KNC031_mix
+CSB_N W.EurasiaSteppe_EnBA KNC_LBA KNCLBA_dis
+CSB_N Albania_Cinamak_EBA.AG KNC_LBA KNCLBA_mix
